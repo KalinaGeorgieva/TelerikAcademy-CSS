@@ -1,0 +1,54 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    background-color: #a9a9a9;
+    padding: 10px;
+    margin: 10px;   
+}
+
+ li, body > header > h1, body > footer {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    
+}
+
+li > a {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+nav > ul > li:last-child {
+    text-decoration: underline;
+}
+
+.current {
+    background-color: #D3D3D3;
+}
+
+header > h1 {
+    color: #ffffcc;
+    font-size: 25px;
+}
+
+body > header > h1 {
+    font-size: 40px;
+}
+
+p {
+    font-weight: 550;
+}
+
+footer > p {
+    font-size: 15px;
+    font-weight: normal;
+}

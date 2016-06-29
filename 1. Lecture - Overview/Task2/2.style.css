@@ -1,0 +1,74 @@
+body {
+    font-family: Arial;
+    font-size: 13px;
+    padding: 0px;
+    margin: 0px;
+}
+
+table {
+    width: 500px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #BBB99D;
+    border-collapse: collapse;
+}
+
+thead {
+    background-color:  #29a329;
+    color: white;
+    font-weight: normal;
+    border-left: 1px solid #336600;
+    text-align: left;
+    padding: 4px; 
+}
+
+td {
+    border-left: 1px solid #BBB99D;
+    padding: 5px;
+}
+
+tr:nth-of-type(2n) {
+    background-color: #ddddbb;
+}
+
+.mexico:before {
+    content: url(images/mexico.png);
+    vertical-align: -20%;
+    padding-right: 3px;
+   
+}
+
+#bordernone {
+    border-left: none;
+}
+
+#center {
+    text-align: center;
+    width: 80px;
+}
+
+#germany:before {
+    content: url(images/germany.gif);
+    vertical-align: -10%;
+}
+
+#uk:before {
+    content: url(images/uk.png);
+     vertical-align: -10%;
+}
+
+.firstcol {
+    width: 160px;
+}
+
+.secondcol {
+    width: 100px;
+}
+
+.thirdcol {
+    width: 115px;
+}
+
+input[type="checkbox"]:disabled {
+    background: #c2d6d6;
+}

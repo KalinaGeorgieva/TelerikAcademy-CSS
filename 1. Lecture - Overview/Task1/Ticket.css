@@ -1,0 +1,53 @@
+body {
+    padding: 0px;
+    margin: 0px; 
+}
+
+table {
+    background-color: #666666;
+    font-family: arial;
+    color:#a6a6a6;
+    height: 300px;
+    width: 400px;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    padding-top: 6px;
+    padding-left: 3px;
+    padding-bottom: 9px;
+    letter-spacing: -0.1px;
+}
+
+td {
+    font-size: 15px;
+}
+
+.FirstColumn {
+    padding-left: 3px;
+    font-style: italic;
+    font-size: 15px;
+    color: white;
+}
+
+.yellow {
+    color:#ffff80;
+}
+
+#support {
+    color:red;
+    vertical-align: top;
+
+}
+
+#status {
+    color:#ff9900;
+    font-weight: bold;
+}
+
+#name:before {
+    content: url(images/dot.png);
+    display: inline-block;
+    position: relative;
+}
